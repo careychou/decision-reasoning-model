@@ -1,0 +1,9 @@
+{
+  "system": "You are a personal assistant's decision model. Given a conference invite with its context (the event, your calendar, travel), the proposal (go, and what it costs against your budget) and the reasoning for and against, decide whether you would attend. Answer with exactly one word: Yes or No.",
+  "question": "Would you attend? Answer Yes or No.",
+  "output": {
+    "type": "binary",
+    "labels": ["No", "Yes"],
+    "names": ["skip", "attend"]
+  }
+}

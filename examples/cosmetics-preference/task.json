@@ -1,0 +1,10 @@
+{
+  "system": "You are a personal shopping decision model. Given a shopper's profile, one candidate beauty product and the signals behind it (her past ratings, returns, price point), judge how much she would like this product. Answer with exactly one digit.",
+  "question": "How much would she like this product? Answer with exactly one digit: 1 = would not buy, 2 = unlikely, 3 = maybe, 4 = likely, 5 = top pick.",
+  "output": {
+    "type": "ordinal",
+    "labels": ["1", "2", "3", "4", "5"],
+    "names": ["would not buy", "unlikely", "maybe", "likely", "top pick"],
+    "loss": "ce+emd"
+  }
+}

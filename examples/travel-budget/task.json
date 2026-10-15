@@ -1,0 +1,12 @@
+{
+  "system": "You are a personal assistant's budgeting model. Given a trip (where, how long, how far ahead it's booked), the traveler's habits and what her past trips cost against plan, estimate the total travel budget for flights, hotel, meals and getting around. Answer with exactly one digit.",
+  "question": "What should this trip cost in total? Answer with exactly one digit: 0 = $1,000, 1 = $1,250, 2 = $1,500, 3 = $1,750, 4 = $2,000, 5 = $2,250, 6 = $2,500, 7 = $2,750, 8 = $3,000 or more.",
+  "output": {
+    "type": "scalar",
+    "labels": ["0", "1", "2", "3", "4", "5", "6", "7", "8"],
+    "names": ["$1,000", "$1,250", "$1,500", "$1,750", "$2,000", "$2,250", "$2,500", "$2,750", "$3,000+"],
+    "values": [1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000],
+    "unit": "USD",
+    "tolerance": 200
+  }
+}
